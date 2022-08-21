@@ -1,3 +1,4 @@
 .env
 venv/
+discloud.config
 #python_chatbot/chatbot_train.py

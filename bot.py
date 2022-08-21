@@ -8,7 +8,7 @@ from discord.ext import commands
 
 chatbot_path = os.path.join(os.path.dirname(__file__), './python_chatbot')#pega o caminho do programa que responde as perguntas
 sys.path.append(chatbot_path)#adiciona a pasta do chatbot à variável path para  poder importar a função que responde as perguntas
-from chatbot import chatbot_answer #importa o programa do chatbot que responde perguntas
+from ChatBot import chatbot_answer #importa o programa do chatbot que responde perguntas
 
 load_dotenv()  # lê um arquivo .env e carrega as variáveis de ambiente dele
 TOKEN = os.getenv('TOKEN')  # pega o token de uma variável de ambiente
