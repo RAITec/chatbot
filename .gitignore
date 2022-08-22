@@ -1,5 +1,6 @@
 .env
 venv/
+discord.config
 python_chatbot/Modelo_ChatBot.h5
 python_chatbot/__pycache__/
 python_chatbot/classes.pkl

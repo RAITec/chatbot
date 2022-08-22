@@ -7,8 +7,8 @@ import numpy as np
 import nltk
 from nltk.stem.wordnet import WordNetLemmatizer                 # Essa função serve para reduzir a palavra a sua forma canonica.
 
-# nltk.download('punkt', quiet=True)                            # Necessário para se instalar "punkt"
-# nltk.download('wordnet', quiet=True)                          # Necessário para se instalar "wordnet"
+nltk.download('punkt', quiet=True)                            # Necessário para se instalar "punkt"
+nltk.download('wordnet', quiet=True)                          # Necessário para se instalar "wordnet"
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout  # """Bug""" resolvido instalando-se NVidia COPA (problema de GPU?)
